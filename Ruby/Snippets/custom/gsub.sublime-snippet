@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gsub(/${1:pattern}/, '${2:replacement}')]]></content>
+    <tabTrigger>gsub</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>gsub(/../, '..')</description>
+</snippet>

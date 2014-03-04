@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[${1:require 'benchmark'
+
+}n = 1_000_000
+Benchmark.bm(10) do |x|
+  x.report("${2:label1}:") { n.times { $3 } }
+  x.report("${4:label2}:") { n.times { $5 } }
+end]]></content>
+    <tabTrigger>bent</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Benchmark.bm do .. end</description>
+</snippet>

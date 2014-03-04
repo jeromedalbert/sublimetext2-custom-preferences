@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[try
+	${1}
+catch e
+  ${2}
+]]></content>
+    <tabTrigger>try</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>try catch</description>
+</snippet>

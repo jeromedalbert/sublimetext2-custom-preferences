@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[each ->
+  ${0}
+]]></content>
+    <tabTrigger>ea</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>each</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[each do${1/(^.+$)|^$/(?1: |)/}${1:e}${1/(^.+$)|^$/(?1:|)/}
+  $0
+end]]></content>
+    <tabTrigger>ead</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>each do |e| .. end</description>
+</snippet>

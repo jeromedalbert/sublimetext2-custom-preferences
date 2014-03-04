@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[#!/usr/bin/env ruby -w
+]]></content>
+    <tabTrigger>shebang</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>#!/usr/bin/env ruby -w</description>
+</snippet>

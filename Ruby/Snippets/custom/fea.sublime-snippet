@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[find_each { |${1:e}| $0 }]]></content>
+    <tabTrigger>fea</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>find_each { |e| .. }</description>
+</snippet>

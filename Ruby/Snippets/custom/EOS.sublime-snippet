@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<<-EOS
+$0
+EOS]]></content>
+    <tabTrigger>EOS</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>heredoc EOS</description>
+</snippet>

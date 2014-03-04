@@ -1,0 +1,28 @@
+[
+	{
+		"args":
+		{
+			"file": "Packages/Default/Add Line.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"characters": "\nend"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "reindent"
+	}
+]

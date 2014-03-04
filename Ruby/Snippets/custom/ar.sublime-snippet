@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[attr_reader :${0:attr_names}]]></content>
+    <tabTrigger>ar</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>attr_reader ..</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[find_each do${1/(^.+$)|^$/(?1: |)/}${1:e}${1/(^.+$)|^$/(?1:|)/}
+  $0
+end]]></content>
+    <tabTrigger>feab</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>find_each do |e| .. end</description>
+</snippet>

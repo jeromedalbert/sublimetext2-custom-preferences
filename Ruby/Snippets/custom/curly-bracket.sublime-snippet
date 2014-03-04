@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{ |${1:e}| $2 ]]></content>
+    <tabTrigger>{</tabTrigger>
+    <scope>source.ruby - string - comment</scope>
+    <description>{ |e| … }</description>
+</snippet>

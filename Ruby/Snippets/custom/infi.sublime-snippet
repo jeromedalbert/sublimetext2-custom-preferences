@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Float::INFINITY]]></content>
+    <tabTrigger>inf</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Rails.logger.debug(..)</description>
+</snippet>

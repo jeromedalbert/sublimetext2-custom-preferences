@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:require 'benchmark'
+
+}puts Benchmark.realtime { 1_000_000.times { $2 } }]]></content>
+    <tabTrigger>ben</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>puts Benchmark.realtime { ... }</description>
+</snippet>

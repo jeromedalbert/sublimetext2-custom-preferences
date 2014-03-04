@@ -1,0 +1,168 @@
+[
+  { "keys": ["alt+a"], "command": "alignment" },
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+
+  { "keys": ["alt+t"], "command": "change_quotes" },
+
+  { "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+  { "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+
+  // { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 2.0} },
+  // { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -2.0} },
+
+  { "keys": ["ctrl+alt+left"], "command": "previous_edit" },
+  { "keys": ["ctrl+alt+right"], "command": "next_edit" },
+
+  { "keys": ["ctrl+u"], "command": "scroll_up_half_page" },
+  { "keys": ["ctrl+d"], "command": "scroll_down_half_page" },
+
+  // { "keys": ["ctrl+super+l"], "command": "sublimelinter", "args": {"action": "disable"} },
+
+  { "keys": ["f1"], "command": "focus_side_bar" },
+  { "keys": ["super+f1"], "command": "reveal_in_side_bar_and_focus" },
+
+  { "keys": ["shift+alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
+  { "keys": ["shift+alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true}},
+
+  { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
+  { "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
+  { "keys": ["super+shift+."], "command": "open_file", "args": {"file": "${packages}/Default/Default (OSX).sublime-keymap"} },
+
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel" : "replace"} },
+  { "keys": ["super+shift+m"], "command": "toggle_minimap" },
+
+  // { "keys": ["super+k", "super+e"], "command": "scroll_bottom" },
+  // { "keys": ["super+k", "super+z"], "command": "scroll_top" },
+
+  { "keys": ["super+i"],  "command": "reindent" },
+  { "keys": ["super+shift+i"], "command": "tag_indent" },
+  { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+
+  { "keys": ["super+0"], "command": "revert_font_size" },
+
+  { "keys": ["super+shift+h"], "command": "expand_selection_to_paragraph"},
+
+  { "keys": ["alt+shift+w"], "command": "close_other_tabs" },
+
+  { "keys": ["f3"], "command": "navigate_to_definition" },
+  { "keys": ["f4"], "command": "jump_back" },
+  { "keys": ["super+f4"], "command": "last_modification" },
+
+  { "keys": ["super+maj+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+
+  { "keys": ["super+f3"], "command": "next_result" },
+  { "keys": ["super+f4"], "command": "prev_result" },
+
+  // { "keys": ["alt+shift+r"], "command": "rubocop_check_project" },
+
+  { "keys": ["alt+,"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Add comma.sublime-macro"} },
+  { "keys": ["alt+shift+,"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Add comma and return.sublime-macro"} },
+  { "keys": ["alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Add semicolon.sublime-macro"} },
+  { "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Add semicolon.sublime-macro"} },
+  { "keys": ["alt+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Add semicolon and return.sublime-macro"} },
+  { "keys": ["alt+k"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Remove last char.sublime-macro"} },
+  { "keys": ["alt+shift+k"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Remove last char and return.sublime-macro"} },
+
+  { "keys": ["alt+shift+a"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/Copy settings entry.sublime-macro"} },
+
+  { "keys": ["alt+d"], "command": "expand_selection", "args": {"to": "scope"} },
+  { "keys": ["alt+f"], "command": "expand_selection_to_quotes" },
+
+  { "keys": ["alt+w"], "command": "wrap_lines" },
+
+  { "keys": ["super+w"], "command": "custom_close_tab" },
+  { "keys": ["super+j"], "command": "join_lines" },
+  { "keys": ["super+alt+n"], "command": "advanced_new_file"},
+
+  { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
+  { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+
+  { "keys": ["alt+r"], "command": "ruby_eval" },
+
+  { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true}, "context":
+   [
+     { "key": "following_text", "operator": "regex_match", "operand": "[^|].*|" }
+   ]
+  },
+  { "keys": ["tab"], "command": "reindent", "context":
+    [
+      { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true },
+      { "key": "following_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "indent", "context":
+    [
+      { "key": "text", "operator": "regex_contains", "operand": "\n" }
+    ]
+  },
+  { "keys": ["tab"], "command": "next_field", "context":
+    [
+      { "key": "has_next_field", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "commit_completion", "context":
+   [
+     { "key": "auto_complete_visible" },
+     { "key": "setting.auto_complete_commit_on_tab" },
+     { "key": "following_text", "operator": "regex_match", "operand": "[^|].*|" }
+   ]
+  },
+
+  { "keys": ["super+n"], "command": "new_file" },
+  { "keys": ["alt+n"], "command": "new_ruby_file" },
+
+  { "keys": ["alt+p"], "command": "tab_filter" },
+
+  { "keys": ["super+shift+f"], "command": "custom_find_in_files" },
+  { "keys": ["alt+shift+f"], "command": "focus_find_tab" },
+
+  { "keys": ["super+shift+o"], "command": "prompt_select_project" },
+
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
+  { "keys": ["super+\\"], "command": "open_file", "args": {"file": "/Users/jerome/.current.tasks"} },
+
+  { "keys": ["super+i"], "command": "plain_tasks_new", "context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+  { "keys": ["super+w"], "command": "save_and_close", "context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+  { "keys": ["ctrl+p"], "command": "rails_partial"},
+
+  { "keys": ["alt+super+down"], "command": "inc_dec_value", "args": { "action": "dec_min" } },
+  { "keys": ["alt+super+up"],   "command": "inc_dec_value", "args": { "action": "inc_min" } },
+
+  // RubyTest
+  { "keys": ["ctrl+r"], "command": "run_single_ruby_test",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+  { "keys": ["ctrl+super+r"], "command": "run_all_ruby_test",
+      "context": [ { "key": "selector", "operator": "equal",
+         "operand": "source.ruby, source.rspec, text.gherkin.feature"
+                } ]
+  },
+  { "keys": ["super+shift+x"], "command": "show_test_panel" },
+  { "keys": ["ctrl+t"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": false},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+  { "keys": ["ctrl+f"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": true},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+
+  { "keys": ["ctrl+alt+super+s"], "command": "save_project_as" },
+
+  { "keys": ["ctrl+super+w"], "command": "close_all" }
+]

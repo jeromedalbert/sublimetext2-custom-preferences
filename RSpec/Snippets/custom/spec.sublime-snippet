@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[require 'spec_helper'
+
+describe ${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\_spec.rb)?/(?2::\u$1)/g} do
+
+  $0
+
+end]]></content>
+    <tabTrigger>spec</tabTrigger>
+    <scope>source.ruby.rspec</scope>
+    <description>spec template</description>
+</snippet>

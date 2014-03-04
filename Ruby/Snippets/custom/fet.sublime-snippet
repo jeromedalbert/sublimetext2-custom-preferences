@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[fetch(${1:key}) { ${2:val} }]]></content>
+    <tabTrigger>fet</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>fetch(key) { val }</description>
+</snippet>

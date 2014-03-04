@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[on('${1}', function(event) {
+  ${0}
+});]]></content>
+    <tabTrigger>on</tabTrigger>
+    <scope>source.js</scope>
+    <description>on</description>
+</snippet>

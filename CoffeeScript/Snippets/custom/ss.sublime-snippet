@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$('${1}')${2}]]></content>
+    <tabTrigger>ss</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>$('')</description>
+</snippet>

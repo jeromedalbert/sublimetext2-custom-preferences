@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[res = Net::HTTP.get_response(URI(${1:url}))
+puts res.body]]></content>
+    <tabTrigger>httpgetresponse</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Net::HTTP.get( ... )</description>
+</snippet>

@@ -1,0 +1,82 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"caret_style": "wide",
+	"color_scheme": "Packages/Theme - RailscastTextmate/railscast-textmate.tmtheme",
+	"default_encoding": "UTF-8",
+	"detect_slow_plugins": false,
+	"draw_white_space": "none",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		".gitkeep",
+		".keep"
+	],
+	"find_selected_text": true,
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".idea",
+		".zeus.sock",
+		".bundle",
+		".sass-cache"
+	],
+	"font_face": "Menlo",
+	"font_size": 14.0,
+	"highlight_line": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Tomorrow Color Schemes",
+		"Markdown Extended"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 0,
+	"match_brackets": true,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "disabled",
+	"revert_font_size": 14,
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"scroll_speed": 0,
+	"show_full_path": true,
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"theme": "RailsCastTextmate.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}

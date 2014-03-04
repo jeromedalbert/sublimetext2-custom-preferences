@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Dir['${1:*.txt}'].each do |${2:file_name}|
+  $0
+end]]></content>
+    <tabTrigger>dird</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Dir['*.txt']</description>
+</snippet>

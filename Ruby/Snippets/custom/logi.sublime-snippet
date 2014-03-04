@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[@logger.info($1)]]></content>
+    <tabTrigger>logi</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>logger.info(..)</description>
+</snippet>

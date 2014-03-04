@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[module_function $1]]></content>
+    <tabTrigger>moduf</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>module .. end</description>
+</snippet>

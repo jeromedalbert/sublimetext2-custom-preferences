@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[binding.remote_pry]]></content>
+    <tabTrigger>rdebug</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>remote debug with pry-remote</description>
+</snippet>

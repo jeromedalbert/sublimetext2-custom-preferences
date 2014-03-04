@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[map do${1/(^.+$)|^$/(?1: |)/}${1:e}${1/(^.+$)|^$/(?1:|)/}
+  $0
+end]]></content>
+    <tabTrigger>mapd</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>map do |e| .. end</description>
+</snippet>
