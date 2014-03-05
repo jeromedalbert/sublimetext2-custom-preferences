@@ -1,0 +1,4 @@
+{
+  // "ruby": "ruby"
+  "ruby": "/usr/local/opt/rbenv/shims/ruby"
+}

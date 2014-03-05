@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "RubyEval: Evaluated Selected Ruby Code",
+    "command": "ruby_eval"
+  }
+]
